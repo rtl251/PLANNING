@@ -7,12 +7,12 @@ Me (student in python programming and software development class)
 
 ### User Needs statement
 
-I am looking for a way to save the information of sold listings on ebay.
+I am looking for a way to save the information of sold listings on Ebay.
 
-Currently a user of ebay can manually retrieve records of items
-that have been sold on the ebay platform within the last 2 months.
+Currently a user of Ebay can manually retrieve records of items
+that have been sold on the Ebay platform within the last 2 months.
 
-But instances beyond 2 months are deleted from ebay's searchable records. This 2-month period
+But instances beyond 2 months are deleted from Ebay's searchable records. This 2-month period
 is rolling: If today is 6/16/2018, you will be able to retrieve sold listings on 4/16/2018, but 
 tomorrow you will no longer be able to retrieve that data.
 
@@ -20,12 +20,14 @@ A program that would be able to search for sold listings and save the data in a
 csv file would prove useful to users would wish to track the sales history of a particular item 
 for periods beyound 2 months, as this functionality currently isn't available.
 
+The program will prove successful if
+
 ## Information Requirements
 
 ### Information Inputs
 
-A record of a particular item that was sold on ebay and its attributes, including auction end date, ending price, 
-shipping cost, ebay seller name, size (if applicable) and descrition. (possibly pictures as well)
+A record of a particular item that was sold on Ebay and its attributes, including auction end date, ending price, 
+shipping cost, Ebay seller name, size (if applicable) and descrition. (possibly pictures as well)
 
 ### Information Outputs
 The inputted data written neatly in a csv file (list of data dictionaries), with future inputs to be added
@@ -37,10 +39,15 @@ in the same format.
 Ebay API
 
 ### Python Package Requirements
-Beautiful Soup
+Ebaysdk - interface into the Ebay APIs
 
-ebaysdk
+Beautiful Soup - for parsing Ebay data
+
+pytest - for testing 
+
+csv - for csv writing
 
 ### Hardware Requirements
-Personal Machine
+This application will run from my personal machine, with no plans to run this application
+on a public server.
 
