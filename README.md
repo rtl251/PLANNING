@@ -20,7 +20,12 @@ A program that would be able to search for sold listings and save the data in a
 csv file would prove useful to users would wish to track the sales history of a particular item 
 for periods beyond 2 months, as this functionality currently isn't available.
 
-The program will prove successful if
+###Program Steps:
+
+1. Type item name in python input field
+2. Program compiles all sold listings matching item description
+3. Listings are written to csv file, serving as a historical record of all items sold with that given item name
+4. Duplicate entries, identified by same date and item description, will be removed
 
 ## Information Requirements
 
