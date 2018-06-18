@@ -18,7 +18,7 @@ tomorrow you will no longer be able to retrieve that data.
 
 A program that would be able to search for sold listings and save the data in a 
 csv file would prove useful to users would wish to track the sales history of a particular item 
-for periods beyound 2 months, as this functionality currently isn't available.
+for periods beyond 2 months, as this functionality currently isn't available.
 
 The program will prove successful if
 
@@ -27,7 +27,7 @@ The program will prove successful if
 ### Information Inputs
 
 A record of a particular item that was sold on Ebay and its attributes, including auction end date, ending price, 
-shipping cost, Ebay seller name, size (if applicable) and descrition. (possibly pictures as well)
+shipping cost, Ebay seller name, size (if applicable) and description. (possibly pictures as well)
 
 ### Information Outputs
 The inputted data written neatly in a csv file (list of data dictionaries), with future inputs to be added
