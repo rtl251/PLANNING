@@ -25,7 +25,7 @@ for periods beyound 2 months, as this functionality currently isn't available.
 ### Information Inputs
 
 A record of an ebay sold listing  of a particular item and its attributes, including auction end date, ending price, 
-shipping cost, ebay seller name,size (if applicable) and descrition. (possibly pictures as well)
+shipping cost, ebay seller name, size (if applicable) and descrition. (possibly pictures as well)
 
 ### Information Outputs
 The same inputs written neatly in a csv file (list of data dictionaries)
