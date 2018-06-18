@@ -35,6 +35,7 @@ Ebay API
 
 ### Python Package Requirements
 Beautiful Soup
+
 ebaysdk
 
 ### Hardware Requirements
